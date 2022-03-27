@@ -1,0 +1,18 @@
+main: com.glicio.App
+name: GChat
+version: 0.1
+api-version: 1.18
+
+commands:
+  l:
+    description: Entrar no chat local
+    usage: /l
+    permission: gchat.chat.local
+  g:
+    description: Entrar no chat global
+    usage: /g
+    permission: gchat.chat.global
+  getchatusers:
+    description: debug command
+    usage: /getchatusers
+    permission: gchat.chat.debug
