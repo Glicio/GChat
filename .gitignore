@@ -1,0 +1,4 @@
+.editorconfig
+target/
+./src/test/
+test
